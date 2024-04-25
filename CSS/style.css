@@ -126,9 +126,8 @@ header{
 }
 
 .banner .col-lg-8 {
-    margin-top: 130px; 
+    margin-top: 30px; 
 }
-
 
 .banner .b-content .theme-btn:hover{
     background: #f58661;
@@ -161,8 +160,6 @@ header{
 .owl-dots{
     display: none;
 }
-
-
 
 .owl-next span:hover, .owl-prev span:hover {
     background-color: #ff3668;
@@ -210,6 +207,18 @@ header{
     border-color: #e5345b;
 }
 
+.fa-star {
+    color: yellow; 
+}
+
+.fa-star:hover {
+    color: black; 
+}
+  
+
+
+
+
 .active-filter-btn{
     background-color: var(--pink)!important;
     color: #fff!important;
@@ -225,9 +234,13 @@ header{
 }
 
 .collection-img img {
-    max-width: 75%; 
+    max-width: 75%;
     height: auto;
-}
+    width: auto; 
+    object-fit: cover;
+    display: block; 
+  }
+  
 
 /* newsletter */
 #newsletter{

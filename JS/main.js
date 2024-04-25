@@ -18,4 +18,8 @@ $(document).ready(function() {
             }
         }
     })
+
+
+    $('.owl-next span').text('Siguiente');
+    $('.owl-prev span').text('Anterior');
 });

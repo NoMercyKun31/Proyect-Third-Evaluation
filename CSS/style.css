@@ -75,7 +75,7 @@ header{
 .banner{
     width: 100%;
     background-color: white;
-    padding: 120px 0;
+    padding:  0;
 }
 
 .banner .b-content h1{
@@ -107,6 +107,16 @@ header{
     border-radius: 5px;
     text-decoration: none;
 }
+
+.banner .row {
+    align-items: center;
+    justify-content: center; /* Centrar verticalmente los elementos */
+}
+
+.banner .col-lg-8 {
+    margin-top: 5px; /* Ajustar el margen superior para separar la imagen del texto */
+}
+
 
 .banner .b-content .theme-btn:hover{
     background: #f58661;

@@ -34,3 +34,18 @@ $('.filter-button-group').on('click', 'button', function(){
         filter: filterValue
     })
 })
+
+<script> 
+  document.querySelectorAll('.nav-link').forEach(item => {
+    item.addEventListener('click', event => {
+     
+      document.getElementById('loader').style.display = 'block';
+      
+      setTimeout(function(){
+       
+        const href = item.getAttribute('href');
+       
+        window.location.href = href;
+      }, 5000);
+    });
+  });

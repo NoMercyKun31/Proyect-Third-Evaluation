@@ -464,9 +464,6 @@ header{
     border: 1px solid #000;
 }
 
-
-
-
 @media(min-width: 992px){
     .nav-item{
         border-bottom: none;

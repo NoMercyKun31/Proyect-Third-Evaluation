@@ -438,9 +438,9 @@ header{
     transition: background-color 0.3s, color 0.3s; 
     border: none; 
     text-align: center;
-    display: flex; /* Usa flexbox */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     padding: 25px; 
     border-radius: 100px;
 }
@@ -454,14 +454,14 @@ header{
 .btn-view-more {
     background-color: transparent;
     border: none;
-    color: #000; /* Cambia el color del texto según lo necesites */
-    padding: 0.5rem 1rem; /* Ajusta el espaciado según lo necesites */
-    transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+    color: #000; 
+    padding: 0.5rem 1rem; 
+    transition: background-color 0.3s, border-color 0.3s; 
 }
 
 .btn-view-more:hover {
     background-color: #fff;
-    border: 1px solid #000; /* Color del borde al pasar el ratón */
+    border: 1px solid #000;
 }
 
 
@@ -473,18 +473,14 @@ header{
     }
 }
 
-/* Estilos generales */
-
-/* Estilos para pantallas grandes */
 @media (min-width: 992px) {
     .footer-col {
-        text-align: left; /* Alineación izquierda para la sección del footer */
+        text-align: left; 
     }
 }
 
-/* Estilos para pantallas medianas */
 @media (max-width: 991px) {
     .footer-col {
-        text-align: center; /* Alineación centrada para la sección del footer */
+        text-align: center; 
     }
 }

@@ -394,3 +394,97 @@ header{
     color: #24262b;
     background-color: #fff;
 }
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.single-product{
+    padding: 25px;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    border:1px solid #000000 ;
+    margin-right: 10px;
+}
+
+.single-product input:focus{
+    outline: none;
+}
+
+.btn-cart {
+    height: 40px;
+    background-color: #e5345b; 
+    color: #ffffff; 
+    transition: background-color 0.3s, color 0.3s; 
+    border: none; 
+    text-align: center;
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 25px; 
+    border-radius: 100px;
+}
+
+.btn-cart:hover {
+    background-color: #666666; 
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.btn-view-more {
+    background-color: transparent;
+    border: none;
+    color: #000; /* Cambia el color del texto según lo necesites */
+    padding: 0.5rem 1rem; /* Ajusta el espaciado según lo necesites */
+    transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+}
+
+.btn-view-more:hover {
+    background-color: #fff;
+    border: 1px solid #000; /* Color del borde al pasar el ratón */
+}
+
+
+
+
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+/* Estilos generales */
+
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+    .footer-col {
+        text-align: left; /* Alineación izquierda para la sección del footer */
+    }
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 991px) {
+    .footer-col {
+        text-align: center; /* Alineación centrada para la sección del footer */
+    }
+}

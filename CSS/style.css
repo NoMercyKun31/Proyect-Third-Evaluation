@@ -240,17 +240,28 @@ header{
     color: #fff!important;
 }
 
-.collection-img{
+.collection-img {
     display: flex;
-    justify-content: center;
-}
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
 
 .collection-img img {
-    max-width: 75%;
+    max-width: 100%;
     height: auto;
     width: auto; 
     object-fit: cover;
     display: block; 
+}
+
+.collection-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.collection-list a:hover {
+    text-decoration: none;
+    color: #e5345b;
 }
 
 .collection-img img:hover {

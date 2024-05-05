@@ -242,8 +242,8 @@ header{
 
 .collection-img {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center; 
+    align-items: center; 
   }
 
 .collection-img img {
@@ -473,6 +473,76 @@ header{
 .btn-view-more:hover {
     background-color: #fff;
     border: 1px solid #000;
+}
+
+.table-products{
+    margin: 100px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex: wrap;
+}
+
+.cart-info img{
+    max-width: 15%;
+    height: auto;
+    width: auto; 
+    object-fit: cover;
+    display: block; 
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.table-products th {
+    text-align: left;
+    padding: 15px; 
+    color: #fff;
+    background: #e91e63;
+    font-size: 15px;
+}
+
+td{
+    padding: 10px 5px;
+}
+
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #ff3668;
+    width: 100%;
+    max-width: 350px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+.cart-info a{
+    text-decoration: none;
+    color: #f58661;
+}
+
+.cart-info a:hover{
+    color: #e91e63;
 }
 
 @media(min-width: 992px){
